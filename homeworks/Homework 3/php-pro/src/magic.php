@@ -28,16 +28,21 @@ class Student
         $this->city = $value;
     }
 
+    public function getSchool() :string
+    {
+        return $this->school;
+    }
 
     public function __toString()
     {
-        return 'Name:' .  $this->name. ' ' .  $this->surname . ' ' . $this->age .PHP_EOL;
+        return 'Student info:' .  $this->name. ' ' .  $this->surname . ' ' . $this->age .PHP_EOL;
     }
 
-    public function __call($method, $arguments)
+     public function __call($method, $arguments) // переробив звернення у метод
     {
-        echo "Fatal error: Call to undefined or protected method " . get_class(). '::' . $method. '(' . implode(',' , $arguments) .')' .PHP_EOL ;
-
+        if($method == 'changeSchool') {
+            return $this->getSchool();
+        }
     }
 
     public function __unset($param)
@@ -56,9 +61,9 @@ echo $student; // перевірка на роботу магічного мет
 
 $student->city = 'Kyiv';
 unset($student->city); // перевірка на можливість видалення властивості класу (P.S. шторм ругається що властивість private але магія діє та видаляє)
-$student->setSity('Lviv'); // перевірка на працездатнцість магічного методу __call
+ echo $student->setSity('Lviv') ; // перевірка на працездатнцість магічного методу __call
 
-$student->changeSchool('Oxford'); // перевіряв чи зайде у магічний метод __call
+echo $student->changeSchool('Oxford') . PHP_EOL; // перевіряв чи зайде у магічний метод __call
 
 
 

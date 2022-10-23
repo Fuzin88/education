@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5ba6d73-af9a-4b5f-9b9c-d567521dd9eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/magic.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/magic.php" afterDir="false" />
-    </list>
+    <list default="true" id="a5ba6d73-af9a-4b5f-9b9c-d567521dd9eb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +11,6 @@
     <execution>
       <executable path="composer" />
     </execution>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
@@ -29,7 +24,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2Fj7rhjeW1vgDZWbHckwrH3EkAY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,13 +34,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\php-pro\docker\configs\php" />
-      <recent name="D:\php-pro\docker\config\php" />
+      <recent name="D:\www\php-pro\src\Convertor" />
+      <recent name="D:\www\php-pro\src" />
+      <recent name="D:\www\php-pro\src\Convertor\Helpers" />
+      <recent name="D:\www\php-pro\src\Convertor\Interfaces" />
+      <recent name="D:\www\php-pro\src\Convertor\ValueObjects" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,37 +60,24 @@
       <workItem from="1665321940305" duration="14704000" />
       <workItem from="1665838519787" duration="6251000" />
       <workItem from="1665859569994" duration="1800000" />
-      <workItem from="1665905339064" duration="10612000" />
+      <workItem from="1665905339064" duration="26006000" />
+      <workItem from="1666035774692" duration="830000" />
+      <workItem from="1666037327497" duration="496000" />
+      <workItem from="1666426883645" duration="14880000" />
+      <workItem from="1666510419287" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/magic.php</url>
-          <line>60</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/magic.php</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/src/convertor.php</url>
+          <line>14</line>
           <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/src/magic.php</url>
-          <line>36</line>
-          <properties>
-            <option name="className" value="\Student" />
-            <option name="methodName" value="__call" />
-          </properties>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
