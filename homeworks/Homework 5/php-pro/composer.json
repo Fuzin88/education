@@ -1,0 +1,20 @@
+{
+    "name": "fuzin/php-pro",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "3.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fuzin\\PhpPro\\": "src/",
+            "PhpPro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vlad Holovko"
+        }
+    ],
+    "minimum-stability": "dev"
+}
